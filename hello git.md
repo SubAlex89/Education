@@ -9,7 +9,7 @@ git init
 
 **Добаление файлов и директорий**
 
-git add "file name"
+git add [file name]
 
 git add .
 
@@ -36,4 +36,20 @@ git show хэш коммита
 git diff
 
 git diff --staged /более подробно
+
+git diff file_name /для просмора изменений в конкретном файле
+
+**Удаление отслеживаемых файлов и директорий**
+
+git rm [file-name]
+
+git rm -r [dir-name]
+
+git rm dirname/*.html для удаления всех файлов по критерию
+
+**Переименование и перемещение файлов**
+
+Необходимо указать папку источник и папку назанчение
+
+git mv dir1/file_name dir2
 
